@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Etch-a-Sketch</h1>
+        <section>
+            <fieldset>
+                <legend for="paintStyle">Style</legend>
+                <input type="radio" id='normal' name='paintStyle' value="normal" checked>Normal</input>
+                <input type="radio" id='rainbow' name='paintStyle' value="rainbow">Rainbow</input>
+                <input type="radio" id='shade' name='paintStyle' value="shade">Shade</input>
+            </fieldset>
+            <button id='resetButton'>Reset Grid</button>
+        </section>
+        
+        <div id="canvas">
+        </div>  
+       <script src="script.js"></script>
+    </body>
+
+</html>
